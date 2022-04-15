@@ -75,13 +75,13 @@ function createboxes() {
 function reset(p, b) {
 	
 	if(count === 10) {
-		p.src = "/images/reset.png";
+		p.src = "images/reset.png";
 		count = 0;
 		img_up = 1;
 		return false;
 	}
 	else if(count === 0 && img_up) {
-		p.src = "/images/plus.png";
+		p.src = "images/plus.png";
 		img_up = 0;
 		b.style.opacity = null;
 		b.style.backgroundColor = null;
